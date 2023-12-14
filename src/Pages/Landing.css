@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    text-align: center !important;
+  }
+
+  #miFooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: none ;
+    margin: 0 ;
+    padding: 4rem; /* Puedes ajustar esto según tus necesidades */
+    text-align: center;
+  }
+
+  /* Media query para pantallas más pequeñas */
+@media screen and (max-width: 650px) {
+    #root {
+      padding: -2rem;  /* Ajusta el padding para pantallas más pequeñas */
+    }
+  
+    #miFooter{
+      padding: 4rem;  /* Ajusta el padding para pantallas más pequeñas */
+      
+    }
+
+  }
